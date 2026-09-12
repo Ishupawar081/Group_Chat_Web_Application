@@ -25,3 +25,5 @@ Thumbs.db
 chat.db
 key.pem
 cert.pem
+load_results.csv
+__pycache__/
