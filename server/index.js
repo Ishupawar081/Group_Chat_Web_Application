@@ -28,7 +28,7 @@ const pool = new Pool({
     database: DB_NAME,
     password: DB_PASSWORD,
     port: DB_PORT,
-    max: 5,
+    max: 20,
     idleTimeoutMillis: 10000,
     connectionTimeoutMillis: 2000
 });

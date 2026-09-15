@@ -36,7 +36,7 @@ def random_message():
 def get_utilization():
     try:
         response = requests.get(
-            "https://127.0.0.1:8257/lb/metrics",
+            "http://127.0.0.1:3000/lb/metrics",
             verify=False,
             timeout=5
         )
